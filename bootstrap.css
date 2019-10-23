@@ -162,24 +162,24 @@ sup {
 
 a {
   color: #007bff;
-  text-decoration: none;
+  text-decoration: overline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: overline;
 }
 
 a:not([href]):not([tabindex]) {
   color: inherit;
-  text-decoration: none;
+  text-decoration: overline;
 }
 
 a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
   color: inherit;
-  text-decoration: none;
+  text-decoration:overline;
 }
 
 a:not([href]):not([tabindex]):focus {
